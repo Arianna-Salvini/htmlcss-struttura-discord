@@ -160,10 +160,6 @@ nav {
     display: flex;
 }
 
-.footer_bottom {
-    height: 110px;
-}
-
 .social_links{
     height: 580px;
     width: 360px;
@@ -177,5 +173,27 @@ nav {
 }
 /* /Footer Top */
 /* Footer Bottom */
+.footer_bottom {
+    height: 110px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer_box{
+    height: 80px;
+    width: 100%;
+    background-color: var(--disc-footer-primary-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space{
+    font-size: 20px;
+    background-color: var(--disc-footer-secondary-light);
+    padding: 5px;
+}
+
+
 /* /Footer Bottom */
 /* /Footer */
