@@ -6,6 +6,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -28,9 +29,9 @@ nav{
 }
 .nav_flex_container {
     height: 47px;
+    background-color: var(--disc-nav);
     display: flex;
     justify-content: center;
-    background-color: var(--disc-nav);
 }
 
 .nav_link_section{
