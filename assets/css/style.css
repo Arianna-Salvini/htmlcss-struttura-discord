@@ -38,6 +38,7 @@ nav {
     background-color: var(--disc-nav-bg);
     display: flex;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 .nav_flex_container {
@@ -98,6 +99,7 @@ nav {
     height: 600px;
     display: flex;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 .light {
@@ -111,6 +113,7 @@ nav {
 .main_flex {
     height: 500px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .reverse {
@@ -157,6 +160,7 @@ nav {
     height: 630px;
     width: 60%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .social_links{
