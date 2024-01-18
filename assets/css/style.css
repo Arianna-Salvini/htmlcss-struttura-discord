@@ -125,3 +125,22 @@ nav{
     background-color: var(--discc-secondary-light);
 }
 
+/* Last Main Saection */
+.start_section{
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start_box{
+    width: 1200px;
+    height: 900px;
+    background-color: var(--disc-extra-color);
+}
+
+/* /Last Main Saection */
+
+/* Footer */
+
+/* /Footer */
