@@ -1,5 +1,5 @@
 /* Common */
-:root{
+:root {
     --disc-nav-bg: #add8e6;
     --disc-nav: #daa520;
     --disc-primary-dark: #00008b;
@@ -15,31 +15,33 @@
     --disc-footer-secondary-dark: #f08080;
     --disc-footer-secondary-light: #f3adb8;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: antiquewhite;
 }
+
 /* Debug */
 
 /* Utiliy */
 
 .container {
     width: 60vw;
-    height: 100vh;
-    background-color: aquamarine;
     margin: auto;
 }
+
 /* Nav */
-nav{
+nav {
     height: 84px;
     background-color: var(--disc-nav-bg);
     display: flex;
     align-content: center;
 }
+
 .nav_flex_container {
     height: 47px;
     background-color: var(--disc-nav);
@@ -47,8 +49,8 @@ nav{
     justify-content: center;
 }
 
-.nav_link_section{
-    display:flex;
+.nav_link_section {
+    display: flex;
     justify-content: center;
     border: 2px black dotted;
     text-align: center;
@@ -61,19 +63,22 @@ nav{
     width: 20%;
 }
 
-.login{
+.login {
     text-align: right;
     border: 2px black dotted;
     width: 20%;
 }
 
-.link,.login, .logo {
+.link,
+.login,
+.logo {
     padding: 0.6rem 0.25rem;
 }
+
 /* /Nav */
 /* Hero */
 
-.hero{
+.hero {
     height: 500px;
     background-color: var(--disc-primary-dark);
     display: flex;
@@ -81,16 +86,17 @@ nav{
     justify-content: center;
 }
 
-.cta_hero_text{
+.cta_hero_text {
     height: 80%;
     width: 45%;
     background-color: var(--disc-secondary-dark);
 }
+
 /* /Hero */
 
 /* Main */
 
-.main_section{
+.main_section {
     height: 600px;
     display: flex;
     align-content: center;
@@ -100,40 +106,40 @@ nav{
     background-color: var(--disc-bg-light);
 }
 
-.dark{
+.dark {
     background-color: var(--disc-bg-dark);
 }
 
-.main_flex{
+.main_flex {
     height: 500px;
     display: flex;
 }
 
-.reverse{
+.reverse {
     flex-direction: row-reverse;
 }
 
-.img_box{
- width: 66%;
- height: 100%;
- background-color: var(--discc-primary-light);
+.img_box {
+    width: 66%;
+    height: 100%;
+    background-color: var(--discc-primary-light);
 }
 
-.text_box{
+.text_box {
     width: 34%;
     height: 100%;
     background-color: var(--discc-secondary-light);
 }
 
 /* Last Main Saection */
-.start_section{
+.start_section {
     height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.start_box{
+.start_box {
     width: 1200px;
     height: 900px;
     background-color: var(--disc-extra-color);
@@ -142,5 +148,34 @@ nav{
 /* /Last Main Saection */
 
 /* Footer */
+/* Footer Top */
+.footer_container {
+    background-color: var(--disc-bg-footer);
+    border-bottom: 2px solid var(--disc-bg-light);
+}
 
+.footer_top {
+    padding-top: 20px;
+    height: 630px;
+    display: flex;
+}
+
+.footer_bottom {
+    height: 110px;
+}
+
+.social_links{
+    height: 580px;
+    width: 360px;
+    background-color: var(--disc-footer-secondary-dark);
+}
+
+.footer_links{
+    width: 210px;
+    height: 580px;
+    background-color: var(--disc-footer-primary-dark);
+}
+/* /Footer Top */
+/* Footer Bottom */
+/* /Footer Bottom */
 /* /Footer */
