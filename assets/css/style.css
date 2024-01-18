@@ -10,7 +10,6 @@ body{
 }
 /* Debug */
 
-
 /* Utiliy */
 
 .container {
@@ -18,4 +17,37 @@ body{
     height: 100vh;
     background-color: aquamarine;
     margin: auto;
+}
+/* Nav */
+nav{
+    height: 50px;
+    background-color: lightblue;
+}
+.nav_flex_container {
+    background-color: rgb(142, 234, 242);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: goldenrod;
+    height: 40px;
+}
+
+.nav_link_section{
+    display:flex;
+    justify-content: center;
+    border: 2px black dotted;
+    text-align: center;
+    width: 60%;
+}
+
+.logo {
+    text-align: left;
+    border: 2px black dotted;
+    width: 20%;
+}
+
+.login{
+    text-align: right;
+    border: 2px black dotted;
+    width: 20%;
 }
