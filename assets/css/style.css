@@ -2,11 +2,22 @@
 :root{
     --disc-nav-bg: #add8e6;
     --disc-nav: #daa520;
+    --disc-primary-dark: #00008b;
+    --disc-secondary-dark: #ee82ee;
+    --discc-primary-light: #1e90ff;
+    --discc-secondary-light: #ffc0cb;
+    --disc-bg-dark: #d3d3d3;
+    --disc-bg-light: #ffffff;
+    --disc-extra-color: #228b22;
+    --disc-bg-footer: #23272a;
+    --disc-footer-primary-dark: #20b2aa;
+    --disc-footer-primary-light: #7fffd4;
+    --disc-footer-secondary-dark: #f08080;
+    --disc-footer-secondary-light: #f3adb8;
 }
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -26,6 +37,8 @@ body{
 nav{
     height: 84px;
     background-color: var(--disc-nav-bg);
+    display: flex;
+    align-content: center;
 }
 .nav_flex_container {
     height: 47px;
@@ -57,3 +70,22 @@ nav{
 .link,.login, .logo {
     padding: 0.6rem 0.25rem;
 }
+/* /Nav */
+/* Hero */
+
+.hero{
+    height: 500px;
+    background-color: var(--disc-primary-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta_hero_text{
+    height: 80%;
+    width: 45%;
+    background-color: var(--disc-secondary-dark);
+}
+/* /Hero */
+
+
