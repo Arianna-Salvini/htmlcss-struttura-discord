@@ -25,13 +25,15 @@ body {
     background-color: antiquewhite;
 }
 
-/* Debug */
-
 /* Utiliy */
 
 .container {
     width: 60vw;
     margin: auto;
+}
+
+.border{
+    border: 2px dotted var(--disc-bg-footer);
 }
 
 /* Nav */
@@ -126,7 +128,7 @@ nav {
 }
 
 .text_box {
-    width: 34%;
+    width: 33%;
     height: 100%;
     background-color: var(--discc-secondary-light);
 }
@@ -170,6 +172,7 @@ nav {
     width: 210px;
     height: 580px;
     background-color: var(--disc-footer-primary-dark);
+    border: 2px dotted var(--disc-bg-light);
 }
 /* /Footer Top */
 /* Footer Bottom */
