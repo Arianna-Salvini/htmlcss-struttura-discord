@@ -88,4 +88,40 @@ nav{
 }
 /* /Hero */
 
+/* Main */
+
+.main_section{
+    height: 600px;
+    display: flex;
+    align-content: center;
+}
+
+.light {
+    background-color: var(--disc-bg-light);
+}
+
+.dark{
+    background-color: var(--disc-bg-dark);
+}
+
+.main_flex{
+    height: 500px;
+    display: flex;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.img_box{
+ width: 66%;
+ height: 100%;
+ background-color: var(--discc-primary-light);
+}
+
+.text_box{
+    width: 34%;
+    height: 100%;
+    background-color: var(--discc-secondary-light);
+}
 
